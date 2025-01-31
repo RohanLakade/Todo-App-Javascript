@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Todo List</title>
+        <link rel="stylesheet" href="style.css">
+
+        <script src="https://kit.fontawesome.com/2cb5c5595c.js" crossorigin="anonymous"></script>
+        <script src="storage.js" defer></script>
+        <script src="utils.js" defer></script>
+        <script src="index.js" defer></script>
+    </head>
+
+    <body>
+        <h1>Todo List</h1>
+        <span class="btn-group">
+            <button id="deleteall" class="btn deleteall"><i class="fa-solid fa-trash"></i>Delete
+                All</button>
+            <a href="add.html" class="btn addtask"><i class="fa-solid fa-plus"></i>Add New Task</a>
+        </span>
+        <div class="search-div">
+            <input type="text" id="search" placeholder="Search...">
+        </div>
+
+        <div id="search-query"></div>
+        <ul id="taskList"></ul>
+    </body>
+
+</html>
